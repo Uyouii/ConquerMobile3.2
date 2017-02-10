@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_app_statistics_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mlyang.ConquerMobile.AppStatisticsList">
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppStatisticsList"
+        android:layout_above="@+id/buttonbarList" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145px"
+        android:orientation="horizontal"
+        android:id="@+id/buttonbarList"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="DAY"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:id="@+id/daybuttonlist"
+            android:background="@drawable/bt_layout"
+            android:textColor="@color/white"/>
+
+
+        <Button
+            android:text="WEEK"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:id="@+id/weekbuttonlist"
+            android:background="@drawable/bt_layout"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:text="MONTH"
+            android:layout_width="0px"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthbuttonlist"
+            android:background="@drawable/bt_layout"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:text="YEAR"
+            android:layout_width="0px"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearbuttonlist"
+            android:background="@drawable/bt_layout"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+

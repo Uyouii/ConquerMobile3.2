@@ -1,0 +1,30 @@
+<resources>
+    <string name="description">Desc</string>
+    <string name="app_name">征战手机</string>
+    <string name="dummy_content">欢迎使用\n征战手机</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="test">这是主页面</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">功能1</string>
+    <string name="drawer_open">打开抽屉</string>
+    <string name="drawer_close">关闭抽屉</string>
+    <string name="open_editor">Edit</string>
+    <string name="close_editor">Close</string>
+
+    <string name="prompt_email">邮箱或用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_register">注册</string>
+    <string name="register_hint">使用邮箱或自定义ID注册</string>
+    <string name="action_log_out">注销</string>
+    <string name="title_activity_online_read">OnlineRead</string>
+
+    <string name="group">请输入组号</string>
+
+
+</resources>
